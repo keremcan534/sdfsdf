@@ -2,11 +2,11 @@ state={
 	id=675
 	name="STATE_675"
 	manpower = 122093
-	
+	impassable=yes	
 	state_category = wasteland
 
 	history={
-		owner = IRQ
+		owner = MON
 		victory_points = {
 			12413 1 
 		}

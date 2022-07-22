@@ -1,9 +1,10 @@
 state = {
 	id = 822
 	name = "STATE_822" #Chukotka
+	impassable = yes
 
 	history = {
-		owner = SOV
+		owner = CKK
 		victory_points = {
 			13063 1 
 		}

@@ -1,0 +1,12 @@
+#Removed cuz it looks ugly as fucc, might bring back some day, but it must be smaller and on the Main Menu!
+#on_actions = {
+#	on_startup = {
+#		effect = {
+#			#custom GUI open
+#			every_country = {
+#				limit = { is_ai = no }
+#				set_country_flag = revive_gui_open
+#			}
+#		}
+#	}
+#}

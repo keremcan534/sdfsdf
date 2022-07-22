@@ -1,0 +1,23 @@
+scripted_gui = {
+	prj_revive_gui = {
+		window_name = "prj_revive_gui_window"
+		context_type = player_context
+
+		visible = {
+			has_country_flag = revive_gui_open
+		}
+
+		effects = {
+			close_bg_click = {
+				clr_country_flag = revive_gui_open
+			}
+		}
+
+		ai_enabled = {
+			always = no
+		}
+
+		ai_test_interval = 290
+		ai_test_variance = 0.5
+	}
+}

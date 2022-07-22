@@ -4,9 +4,10 @@ state={
 	resources={
 		steel=30 # was: 52.000
 	}
+	impassable = yes
 
 	history={
-		owner = SOV
+		owner = TAT
 		buildings = {
 			infrastructure = 2
 

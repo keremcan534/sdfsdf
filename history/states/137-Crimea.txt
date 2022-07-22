@@ -2,12 +2,12 @@
 state={
 	id=137
 	name="STATE_137"
-	manpower = 1061607
+	manpower = 21061607
 	
 	state_category = city
 
 	history={
-		owner = SOV
+		owner = TAT
 		victory_points = {
 			3686 20
 		}

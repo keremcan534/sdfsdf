@@ -1,0 +1,11 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_project_revive_sprite"
+		texturefile = "gfx/interface/revive_sprite.dds"
+	}
+	spriteType = {
+		name = "GFX_project_revive_discord"
+		texturefile = "gfx/interface/revive_discord.dds"
+	}
+}

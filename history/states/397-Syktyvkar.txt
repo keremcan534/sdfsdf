@@ -4,12 +4,12 @@ state = {
 	name = "STATE_397"
 	manpower = 137203
 	state_category = pastoral
-
+	impassable=yes
 	history = {
 		victory_points = {
 			108 1 
 		}
-		owner = SOV
+		owner = MON
 		buildings = {
 			infrastructure = 1
 

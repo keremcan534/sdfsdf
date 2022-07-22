@@ -1,0 +1,971 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			1 = {
+				add_core_of = COR
+			}
+			2 = {
+				add_core_of = PAP
+			}
+            5 = {
+				add_core_of = OST
+				add_core_of = PRE
+			}
+            6 = {
+				add_core_of = FLA
+			}
+            7 = {
+				add_core_of = HLD
+			}
+            9 = {
+				add_core_of = BOH
+				add_core_of = CZC
+			}
+			10 = {
+				add_core_of = MAZ
+			}
+            12 = {
+#				add_core_of = RGA
+			}
+            15 = {
+				add_core_of = NRM
+			}
+            16 = {
+				add_core_of = PAS
+			}
+            17 = {
+				add_core_of = BRG
+				add_core_of = LOR
+			}
+            18 = {
+				add_core_of = BRG
+				add_core_of = CHP
+			}
+            19 = {
+				add_core_of = GAS
+			}
+            20 = {
+				add_core_of = RAL
+			}
+            21 = {
+				add_core_of = PRO
+			}
+            23 = {
+				add_core_of = POI
+			}
+            24 = {
+				add_core_of = ORL
+			}
+            27 = {
+				add_core_of = BRG
+			}
+            28 = {
+				add_core_of = ALS
+			}
+            29 = {
+				add_core_of = PIC
+			}
+            30 = {
+				add_core_of = POI
+			}
+            32 = {
+				add_core_of = RAL
+			}
+            33 = {
+				add_core_of = ORL
+			}
+            34 = {
+				add_core_of = WAL
+			}
+            35 = {
+				add_core_of = BRB
+			}
+            36 = {
+				add_core_of = FRS
+			}
+            39 = {
+				add_core_of = TIR
+			}
+            40 = {
+				add_core_of = SIB
+			}
+            41 = {
+				add_core_of = CAS
+			}
+            42 = {
+				add_core_of = RHI
+			}
+            45 = {
+				add_core_of = VJV
+			}
+            46 = {
+				add_core_of = WLC
+			}
+            47 = {
+				add_core_of = ATH
+			}
+            50 = {
+				add_core_of = WUR
+			}
+            51 = {
+				add_core_of = RHI
+			}
+            52 = {
+				add_core_of = BAY
+			}
+			53 = {
+				add_core_of = BAY
+			}
+			54 = {
+				add_core_of = BAY
+			}
+            55 = {
+				add_core_of = HES
+			}
+            56 = {
+				add_core_of = WSP
+			}
+            57 = {
+				add_core_of = WSP
+			}
+            58 = {
+				add_core_of = SHL
+			}
+            59 = {
+				add_core_of = HAN
+			}
+            60 = {
+				add_core_of = SAX
+			}
+			61 = {
+				add_core_of = MEK
+			}
+            62 = {
+				add_core_of = POM
+				add_core_of = PRE
+			}
+            63 = {
+				add_core_of = POM
+				add_core_of = PRE
+			}
+            64 = {
+				add_core_of = BER
+				add_core_of = PRE
+			}
+            65 = {
+				add_core_of = SAX
+			}
+            66 = {
+#				add_core_of = SIL
+				add_core_of = PRE
+			}
+            67 = {
+#				add_core_of = SIL
+				add_core_of = PRE
+			}
+            68 = {
+				add_core_of = BER
+				add_core_of = PRE
+			}
+            69 = {
+				add_core_of = CZC
+				add_core_of = SDT
+			}
+			70 = {
+				add_core_of = SLO
+			}
+			71 = {
+				add_core_of = SLO
+			}
+            72 = {
+				add_core_of = CZC
+				add_core_of = MRV
+			}
+            73 = {
+				add_core_of = SLO
+				add_core_of = CRP
+			}
+            74 = {
+				add_core_of = CZC
+				add_core_of = SIL
+				add_core_of = SDT
+			}
+            75 = {
+				add_core_of = CZC
+				add_core_of = MRV
+			}
+            77 = {
+				add_core_of = DBJ
+			}
+            78 = {
+				add_core_of = MDV
+			}
+            79 = {
+				add_core_of = MDV
+			}
+            80 = {
+				add_core_of = MDV
+			}
+            81 = {
+				add_core_of = WLC
+			}
+            85 = {
+				add_core_of = WTP
+				add_core_of = PRE
+			}
+            86 = {
+				add_core_of = POZ
+				add_core_of = PRE
+			}
+            87 = {
+				add_core_of = LOD
+			}
+            88 = {
+				add_core_of = GAL
+			}
+            89 = {
+				add_core_of = GAL
+			}
+            90 = {
+				add_core_of = KIL
+			}
+            91 = {
+				add_core_of = GAL
+			}
+            92 = {
+				add_core_of = LUB
+			}
+            93 = {
+				add_core_of = PLE
+			}
+            94 = {
+				add_core_of = PLE
+			}
+            97 = {
+				add_core_of = MAZ
+			}
+            98 = {
+				add_core_of = MAZ
+			}
+			101 = {
+				add_core_of = GRN
+			}
+            103 = {
+				add_core_of = DAL
+			}
+            109 = {
+				add_core_of = SVN
+			}
+            112 = {
+				add_core_of = LIS
+			}
+            113 = {
+				add_core_of = LEI
+			}
+            114 = {
+				add_core_of = SAR
+			}
+            115 = {
+				add_core_of = SIC
+			}
+            117 = {
+				add_core_of = NAP
+			}
+            118 = {
+				add_core_of = ADU
+				add_core_of = GBR
+			}
+            123 = {
+				add_core_of = CRN
+			}
+            124 = {
+				add_core_of = GOT
+			}
+            125 = {
+				add_core_of = EAN
+			}
+            126 = {
+				add_core_of = LON
+			}
+            127 = {
+				add_core_of = SUX
+			}
+            128 = {
+				add_core_of = MRC
+			}
+            129 = {
+				add_core_of = MRC
+			}
+            130 = {
+				add_core_of = NRT
+			}
+            131 = {
+				add_core_of = NRT
+			}
+            132 = {
+				add_core_of = MRC
+			}
+            134 = {
+				add_core_of = CNC
+			}
+            135 = {
+				add_core_of = MUN
+			}
+#            137 = {
+#				add_core_of = CRI
+#			}
+            138 = {
+				add_core_of = SCN
+			}
+            143 = {
+				add_core_of = TRD
+			}
+            144 = {
+				add_core_of = LAP
+				add_core_of = NRN
+			}
+            145 = {
+				add_core_of = ALA
+			}
+            146 = {
+#				add_core_of = KAR
+				add_core_of = NOV
+			}
+            147 = {
+				add_core_of = LAP
+			}
+            148 = {
+				add_core_of = LAP
+			}
+            153 = {
+				add_core_of = TIR
+			}
+            156 = {
+				add_core_of = NAP
+			}
+            157 = {
+				add_core_of = UMB
+			}
+            158 = {
+				add_core_of = PIE
+			}
+            159 = {
+				add_core_of = LOM
+			}
+            160 = {
+				add_core_of = VNI
+			}
+            161 = {
+				add_core_of = RMN
+			}
+            162 = {
+				add_core_of = TUS
+			}
+            163 = {
+				add_core_of = DAL
+			}
+            164 = {
+				add_core_of = RHO
+			}
+            166 = {
+				add_core_of = ARA
+			}
+            167 = {
+				add_core_of = VAL
+			}
+            168 = {
+				add_core_of = MUR
+			}
+            169 = {
+				add_core_of = ADU
+			}
+            170 = {
+				add_core_of = EXT
+			}
+#            172 = {
+#				add_core_of = BSQ
+#			}
+            173 = {
+				add_core_of = ADU
+				add_core_of = GRA
+			}
+            174 = {
+				add_core_of = LEO
+			}
+            175 = {
+				add_core_of = CAS
+			}
+            176 = {
+				add_core_of = CAS
+			}
+            177 = {
+				add_core_of = BAL
+			}
+            179 = {
+				add_core_of = BJA
+			}
+            180 = {
+				add_core_of = PRT
+			}
+            181 = {
+				add_core_of = PRT
+			}
+            182 = {
+				add_core_of = CRE
+			}
+            184 = {
+				add_core_of = THR
+			}
+            185 = {
+				add_core_of = EPI
+			}
+            186 = {
+				add_core_of = PEL
+			}
+            188 = {
+				add_core_of = MEM
+				add_core_of = OST
+				add_core_of = PRE
+			}
+            190 = {
+				add_core_of = CRL
+			}
+            193 = {
+				add_core_of = CHE
+			}
+            194 = {
+				add_core_of = PLE
+			}
+            195 = {
+				add_core_of = ING
+				add_core_of = NOV
+			}
+            201 = {
+				add_core_of = PLE
+			}
+            205 = {
+				add_core_of = SMO
+			}
+            208 = {
+				add_core_of = ING
+				add_core_of = NOV
+			}
+            209 = {
+				add_core_of = NOV
+				add_core_of = PSK
+			}
+            210 = {
+				add_core_of = NOV
+				add_core_of = PSK
+			}
+            213 = {
+				add_core_of = LAP
+				add_core_of = NOV
+			}
+            214 = {
+				add_core_of = NOV
+				add_core_of = WHS
+			}
+            215 = {
+#				add_core_of = KAR
+				add_core_of = NOV
+			}
+            216 = {
+#				add_core_of = KAR
+				add_core_of = NOV
+			}
+            217 = {
+				add_core_of = VLG
+			}
+			218 = {
+				add_core_of = DON
+			}
+            219 = {
+				add_core_of = MOS
+			}
+            220 = {
+				add_core_of = CHE
+			}
+            222 = {
+				add_core_of = CHE
+			}
+            223 = {
+				add_core_of = MOS
+			}
+            224 = {
+				add_core_of = CHE
+			}
+            225 = {
+				add_core_of = CHE
+			}
+#            232 = {
+#				add_core_of = DAG
+#			}
+            233 = {
+				add_core_of = MOU
+			}
+            234 = {
+				add_core_of = KRA
+			}
+            235 = {
+				add_core_of = STA
+			}
+            236 = {
+				add_core_of = ASK
+			}
+#            237 = {
+#				add_core_of = KAL
+#			}
+			238 = {
+				add_core_of = DON
+			}
+            239 = {
+				add_core_of = TAM
+			}
+            240 = {
+				add_core_of = CHE
+			}
+            241 = {
+				add_core_of = SMO
+			}
+            242 = {
+				add_core_of = SMO
+			}
+            243 = {
+				add_core_of = SMO
+			}
+            244 = {
+				add_core_of = NOV
+			}
+			245 = {
+				add_core_of = DON
+			}
+            246 = {
+				add_core_of = SMO
+			}
+            247 = {
+				add_core_of = MOS
+			}
+            248 = {
+				add_core_of = MOS
+			}
+            249 = {
+				add_core_of = IUR
+				add_core_of = TAR
+			}
+            250 = {
+				add_core_of = TAR
+			}
+            251 = {
+				add_core_of = IUR
+			}
+            252 = {
+				add_core_of = MOS
+			}
+            253 = {
+				add_core_of = MOS
+			}
+            254 = {
+				add_core_of = MOS
+			}
+            255 = {
+				add_core_of = TAM
+			}
+            256 = {
+				add_core_of = TAR
+			}
+            257 = {
+				add_core_of = TAM
+			}
+			258 = {
+				add_core_of = DON
+			}
+			260 = {
+				add_core_of = DON
+			}
+            261 = {
+				add_core_of = OHO
+			}
+            262 = {
+				add_core_of = WHS
+			}
+            263 = {
+				add_core_of = NOV
+			}
+            264 = {
+				add_core_of = NOV
+			}
+			265 = {
+				add_core_of = DON
+			}
+            276 = {
+				add_core_of = ONT
+			}
+            331 = {
+				add_core_of = NFL
+			}
+            332 = {
+				add_core_of = LBR
+			}
+            337 = {
+				add_core_of = FIE
+			}
+            338 = {
+				add_core_of = MRC
+			}
+            351 = {
+				add_core_of = MOS
+			}
+            357 = {
+				add_core_of = NEE
+			}
+            358 = {
+				add_core_of = NYO
+			}
+            359 = {
+				add_core_of = NJR
+			}
+            360 = {
+				add_core_of = PEN
+			}
+            361 = {
+				add_core_of = MRY
+			}
+            362 = {
+				add_core_of = SCS
+			}
+            363 = {
+				add_core_of = SCS
+			}
+            364 = {
+				add_core_of = SCS
+				add_core_of = SCR
+			}
+            365 = {
+				add_core_of = SCS
+			}
+            366 = {
+				add_core_of = FLO
+				add_core_of = SCS
+			}
+            367 = {
+				add_core_of = SCS
+			}
+            368 = {
+				add_core_of = SCS
+				add_core_of = TNS
+			}
+            369 = {
+				add_core_of = SCS
+			}
+            370 = {
+				add_core_of = SCS
+			}
+            371 = {
+				add_core_of = LOU
+				add_core_of = SCS
+			}
+            372 = {
+				add_core_of = SCS
+				add_core_of = ARK
+			}
+            374 = {
+				add_core_of = SCS
+			}
+            375 = {
+				add_core_of = SCS
+				add_core_of = TXS
+			}
+            376 = {
+				add_core_of = NMX
+			}
+            377 = {
+				add_core_of = ARI
+				add_core_of = DSR
+			}
+            378 = {
+				add_core_of = CLF
+			}
+            379 = {
+				add_core_of = DSR
+			}
+            380 = {
+				add_core_of = DSR
+			}
+            385 = {
+				add_core_of = CSC
+				add_core_of = ORG
+			}
+            386 = {
+				add_core_of = CSC
+				add_core_of = WSH
+			}
+			395 = {
+				add_core_of = ILL
+			}
+			396 = {
+				add_core_of = IND
+			}
+            397 = {
+				add_core_of = WHS
+			}
+            398 = {
+				add_core_of = PRM
+			}
+            399 = {
+				add_core_of = TAR
+			}
+            400 = {
+				add_core_of = PRM
+			}
+            401 = {
+				add_core_of = IUR
+			}
+            403 = {
+				add_core_of = SIB
+			}
+            408 = {
+#				add_core_of = ESB
+				add_core_of = GUK
+				add_core_of = SIB
+			}
+            409 = {
+#				add_core_of = ESB
+				add_core_of = GUK
+				add_core_of = SIB
+			}
+            463 = {
+				add_core_of = ALK
+			}
+            464 = {
+				add_core_of = NVS
+			}
+            465 = {
+				add_core_of = NBR
+			}
+            466 = {
+				add_core_of = QUE
+			}
+            467 = {
+				add_core_of = MNI
+			}
+            468 = {
+				add_core_of = QUE
+			}
+            469 = {
+				add_core_of = SKS
+			}
+            470 = {
+				add_core_of = ALR
+			}
+            471 = {
+				add_core_of = YUK
+			}
+            472 = {
+				add_core_of = NWT
+			}
+            473 = {
+				add_core_of = BCU
+				add_core_of = CSC
+			}
+            516 = {
+				add_core_of = SIB
+			}
+            560 = {
+#				add_core_of = ESB
+				add_core_of = GUK
+				add_core_of = SIB
+			}
+            561 = {
+#				add_core_of = ESB
+				add_core_of = SIB
+			}
+            562 = {
+#				add_core_of = ESB
+				add_core_of = SIB
+			}
+            563 = {
+				add_core_of = SIB
+			}
+            564 = {
+				add_core_of = SIB
+			}
+            565 = {
+				add_core_of = SIB
+			}
+            566 = {
+				add_core_of = SIB
+			}
+            567 = {
+				add_core_of = SIB
+			}
+            568 = {
+				add_core_of = SIB
+			}
+            569 = {
+				add_core_of = SIB
+			}
+            570 = {
+				add_core_of = SIB
+			}
+            571 = {
+				add_core_of = SIB
+			}
+            572 = {
+				add_core_of = SIB
+			}
+            573 = {
+				add_core_of = URA
+			}
+            574 = {
+				add_core_of = SIB
+			}
+            575 = {
+				add_core_of = SIB
+			}
+            576 = {
+				add_core_of = SIB
+			}
+            577 = {
+				add_core_of = SIB
+			}
+            578 = {
+				add_core_of = SIB
+			}
+            579 = {
+				add_core_of = SIB
+			}
+            580 = {
+				add_core_of = SIB
+			}
+            581 = {
+				add_core_of = URA
+			}
+            582 = {
+				add_core_of = IUR
+				add_core_of = URA
+			}
+            637 = {
+#				add_core_of = ESB
+				add_core_of = SIB
+			}
+            644 = {
+				add_core_of = SIB
+			}
+            650 = {
+				add_core_of = ALK
+			}
+            651 = {
+				add_core_of = IUR
+				add_core_of = TAR
+			}
+            652 = {
+				add_core_of = IUR
+			}
+            653 = {
+				add_core_of = SIB
+			}
+            654 = {
+#				add_core_of = ALT
+				add_core_of = SIB
+			}
+            655 = {
+#				add_core_of = ESB
+				add_core_of = SIB
+			}
+            657 = {
+				add_core_of = BIR
+#				add_core_of = ESB
+				add_core_of = GUK
+				add_core_of = SIB
+			}
+			664 = {
+				add_core_of = SLO
+			}
+            666 = {
+				add_core_of = LAP
+			}
+            682 = {
+				add_core_of = ONT
+			}
+            683 = {
+				add_core_of = NNV
+			}
+            722 = {
+				add_core_of = LAP
+			}
+            730 = {
+				add_core_of = SPM
+			}
+            731 = {
+				add_core_of = CNM
+			}
+            735 = {
+				add_core_of = SAV
+			}
+            736 = {
+				add_core_of = TRS
+			}
+            739 = {
+				add_core_of = BCU
+			}
+            740 = {
+				add_core_of = BCU
+			}
+            762 = {
+#				add_core_of = SIL
+				add_core_of = PRE
+			}
+            763 = {
+				add_core_of = OST
+				add_core_of = PRE
+			}
+            764 = {
+				add_core_of = VJV
+			}
+            766 = {
+				add_core_of = MDV
+			}
+            785 = {
+				add_core_of = PIC
+			}
+            788 = {
+				add_core_of = LEO
+			}
+            789 = {
+				add_core_of = ADU
+			}
+            790 = {
+				add_core_of = ASU
+			}
+            791 = {
+				add_core_of = CAS
+			}
+#            792 = {
+#				add_core_of = BSQ
+#			}
+            793 = {
+				add_core_of = CAS
+			}
+            794 = {
+				add_core_of = ARA
+			}
+            795 = {
+				add_core_of = BJA
+			}
+			806 = {
+				add_core_of = OCC
+				add_core_of = GAS
+			}
+			807 = {
+				add_core_of = WTP
+			}
+			808 = {
+				add_core_of = RGA
+			}
+			809 = {
+				add_core_of = CRL
+			}
+		}
+	}
+}

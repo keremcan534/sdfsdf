@@ -1,0 +1,6 @@
+﻿l_french:
+ #French translation is halted due to lack of members who speak this language, adding english instead to prevent broken text. If you speak french and is reading this, i invite you to Team Revive, you can join as a translator if you want.
+ REVIVE_TT:0 "Project Revive"
+ REVIVE_DISCORD_TT:0 "Click here to access Team Revive's Discord server!"
+ REVIVE_CLOSE_TT:0 "Close"
+ revive_mod_count_txt:0 "You are playing with [?Global.revive_mods_amount|Y0] revive mod(s)!"

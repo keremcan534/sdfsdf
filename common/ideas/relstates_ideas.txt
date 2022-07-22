@@ -1,0 +1,5 @@
+#instead of separating all nations into separate files, i'm gonna put e'm all here, to preserve compatibility, and also because i hate myself =D
+ideas = {
+	political_advisor = { #All political advisors go here, they go in the last 3 slots of the first line.
+		##USSR-based
+		#ALT Altai

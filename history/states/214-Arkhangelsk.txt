@@ -5,9 +5,10 @@ state={
 	manpower = 1050883
 	
 	state_category = town
+	impassable = yes
 
 	history={
-		owner = SOV
+		owner = TAT
 		victory_points = {
 			3338 5 
 		}

@@ -4,7 +4,7 @@ state = {
 
 	history = {
 		
-		owner = SOV
+		owner = MON
 		buildings = {
 			infrastructure = 2
 

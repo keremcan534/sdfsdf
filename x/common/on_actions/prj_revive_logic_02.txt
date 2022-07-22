@@ -1,0 +1,15 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			#Number of revive mods enabled calc
+			if = {
+				limit = { has_variable = revive_mods_amount }
+				add_to_variable = { revive_mods_amount = 1 }
+			}
+			if = {
+				limit = { NOT = { has_variable = revive_mods_amount } }
+				set_variable = { revive_mods_amount = 1 }
+			}
+		}
+	}
+}

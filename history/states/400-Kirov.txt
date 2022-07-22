@@ -6,11 +6,11 @@ state = {
 	resources = {
 		aluminium = 14 # was: 20
 	}
-
+	impassable=yes
 	state_category = town
 
 	history = {
-		owner = SOV
+		owner = MON
 		buildings = {
 			infrastructure = 2
 		}

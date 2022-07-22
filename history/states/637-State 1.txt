@@ -2,9 +2,10 @@
 state = {
 	id = 637
 	name = "STATE_637" #Kamchatka
+	impassable = yes
 
 	history = {
-		owner = SOV
+		owner = FER
 		buildings = {
 			infrastructure = 1
 			12207 = {

@@ -1,0 +1,46 @@
+guiTypes = {
+	containerWindowType = {
+		name = "prj_revive_gui_window"
+		position = { x = -409 y = 150 }
+		size = { width = 400 height = 320 }
+		orientation = UPPER_RIGHT
+		#origo = center
+		fade_time = 100
+		moveable = yes
+		fade_type = linear
+		click_to_front = no
+		clipping = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_project_revive_sprite"
+			pdx_tooltip_delayed = "REVIVE_TT"
+		}
+
+		ButtonType = {
+			name = "revive_discord_bg"
+			spriteType = "GFX_project_revive_discord"
+			position = { x = 21 y = -76 }
+			Orientation = "LOWER_LEFT"
+			pdx_tooltip = "REVIVE_DISCORD_TT"
+			web_link = "https://discord.gg/FY3nw4gyeE"
+		}
+
+		ButtonType = {
+			name = "close_bg"
+			spriteType = "GFX_button_close"
+			position = { x = -56 y = 18 }
+			Orientation = "UPPER_RIGHT"
+			pdx_tooltip = "REVIVE_CLOSE_TT"
+		}
+
+		instantTextBoxType = {
+			name = "revive_mod_count"
+			text = "revive_mod_count_txt"
+			maxWidth = 241
+			maxHeight = 20
+			position = { x = -110 y = 110 }
+			Orientation = "CENTER"
+		}
+	}
+}
